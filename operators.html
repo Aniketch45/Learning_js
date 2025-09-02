@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Arithmetic Operators -,+,*,/,%,--,++,** -->
+    <script>
+        var a=5;
+        var b=2;
+        var c=a**b;
+        document.write(c);
+
+    </script>    
+    <!--Assignment Operators =,+=,-=,*=-->
+    <script>
+        var a=5;
+        var b=10;
+        a+=b;
+        document.write(a);
+        document.write(b);
+    </script>
+    <!--Comparison operator !=,==,>=,<=,===-->
+    <script>
+        var a=10;
+        var b=5;
+        if(a<=b)
+        {
+            document.write("hello");
+        }
+        else
+        {
+            document.write("false");
+        }
+    </script>
+    <!--logical operator &&,||,!-->
+    <script>
+        var a=18
+        if(a>=18 && a<=100){
+            document.write("eligible");
+        }
+        else{
+            document.write("not eligible");
+        }
+
+        var day="Tuesday"
+        if(day=="Sunday" || day=="Saturday")
+        {
+            document.write("Weekend");
+        }
+        else{
+            document.write("Weekdays");
+        }
+        //Ternary Operator
+        var age=19;
+        var eligiblity = (age>=18) ? "Eligible" : "Not Eligible";
+        document.write(eligiblity);
+    </script>
+</body>
+</html>
