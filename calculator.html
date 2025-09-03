@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous">
+
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"></div>
+
+                    <div
+                        class="col-md-4 border border-2 border-dark rounded shadow p-3 mt-5 bg-light">
+                        <form name="myform">
+                            <h1
+                                class="text-center text-bold fs-1 mt-1"> Simple
+                                Calculator</h1><hr>
+                            <div class="mb-3 row">
+                                <label for="inputFirstNum"
+                                    class="col-form-label">Enter 1st Num
+                                    :</label>
+                                <div class="col-sm-12">
+                                    <input type="number" class="form-control"
+                                        name="num1"
+                                        placeholder="Enter number">
+                                </div>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputSecondNum"
+                                    class="col-form-label">Enter 2nd Num
+                                    :</label>
+                                <div class="col-sm-12">
+                                    <input type="number" class="form-control"
+                                        name="num2"
+                                        placeholder="Enter number">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <button type="button"
+                                        class="btn btn-light btn-lg fs-4" onclick="add()">+</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="button"
+                                        class="btn btn-light btn-lg fs-4" onclick="sub()">-</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="button"
+                                        class="btn btn-light btn-lg fs-4" onclick="mul()">*</button>
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="button"
+                                        class="btn btn-light btn-lg fs-4" onclick="div()">/</button>
+                                </div>
+                            </div><br>
+                            <div>
+                                <button type="reset"
+                                    class="btn btn-light btn-lg fs-4" style="width: 100%;">reset</button>
+                            </div>
+                            <div class="mb-3 row">
+                                <label for="inputResult"
+                                    class="col-form-label">Result :</label>
+                                <div class="col-sm-12">
+                                    <input type="number" class="form-control"
+                                        name="res" disabled>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </section>
+        <script src="js/calculator.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+        var a=["Aniket",23,"chafekar",true];
+        document.write(a+"<br>");
+    </script>
+        <script>
+        var arr=[10,20,30,40,50];
+      //for loop
+      var sum=0;
+      document.write("Array elements are:<br>" + "<ul>");
+      for(var i=0;i<arr.length;i++)
+      {
+        document.write("<li>" + arr[i] + "</li>");
+        sum +=arr[i];
+     }
+     document.write("</ul>");
+     document.write("Sum of array elements is: " + sum);
+    </script>
+
+        <script>
+        //while loop
+        var j=0;
+        var sum=0;
+        while(j<arr.length)
+        {
+            document.write("<br>" + arr[j]);
+            sum +=arr[j];
+            j++;
+        }
+        document.write("<br>"+ "sum of array elements are :" +sum)
+
+    </script>
+    
+    <script>
+        //do while
+         var arr=[10,20,30,40,50,60];
+        var i=0;
+        var sum=0;
+        do{
+            document.write("<br>" +  arr[i])
+            sum +=arr[i];
+            i++;
+
+        }while(i<arr.length)
+        document.write("<br>"+ "sum of array is:"+ sum)
+    </script>
+</body>
+</html>

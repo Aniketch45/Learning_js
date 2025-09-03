@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!--update delete-->
+    <script>
+        var a=["Aniket","viki","Rohit","Rohan"];
+        document.write(a +"<br>");
+        a[1]="shantanu";
+        document.write(a +"<br>");
+        delete a[2];
+        document.write(a +"<br>");
+    </script>
+        <script>
+        //sort & reverse
+        let  nam=["ramesh","viki","Rohit","Rohan","Aniket"];
+        document.write(nam +"<br>");
+        nam.sort();
+        document.write(nam+"<br>" )
+        nam.reverse();
+        document.write(nam+"<br>");
+    </script>
+        <script>
+        var  B=["ramesh","viki","Rohit","Rohan","Aniket"];
+        B.push("rakesh");
+        document.write(B+"<br>");
+        B.pop();
+        document.write(B+"<br>");
+    </script>
+        <script>
+       var C=["ramesh","viki","Rohit","Rohan","Aniket"];
+       C.shift();
+        document.write(C+"<br>");
+        C.unshift("Roshan");
+        document.write(C+"<br>");
+    </script>
+    <script>
+        var D=["ramesh","viki","Rohit","Rohan","Aniket"];
+        var E=["rutvik","Karan","jayesh","don"];
+        var F=D.concat(E);
+        document.write(F+ "<br>");
+        var G=F.join("/");
+        document.write(G);
+    </script>
+
+    </body>
+</html>
