@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="clock"></h1>
+    <script>
+        function showTime()
+        {
+            let now=new Date();
+            let time=now.toLocaleTimeString();
+            document.getElementById("clock").innerHTML=time;
+        }
+        setInterval(showTime,1000);
+    </script> -->
+
+    <h2 id="count"></h2>
+    <button onclick="stopCounter()">stop</button>
+
+    <script>
+        let count=0;
+        let counter = setInterval(function()
+        {
+            count++;
+            document.getElementById("count").innerHTML=count;
+        },1000);
+        function stopCounter()
+        {
+            clearInterval(counter);
+        }
+    </script>
+
+    <p id="msg">hello</p>
+    <script>
+        setTimeout(function()
+    {
+        document.getElementById("msg").innerHTML="please..."
+    },5000);
+    </script>
+</body>
+</html>
