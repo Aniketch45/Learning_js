@@ -1,4 +1,4 @@
-get form values
+// get form values
 const name= document.getElementById("name").value.trim();
 const email = document.getElementById("email").value.trim();
 const mobile = document.getElementById("mnumber").value.trim();
@@ -8,4 +8,4 @@ const message = document.getElementById("message").value.trim();
 const agree = document.getElementById("agree").value.trim();
 const gender = document.querySelector('input[name="gender"]:checked');
 
-error spans
+// error spans
