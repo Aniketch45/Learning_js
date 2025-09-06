@@ -13,10 +13,10 @@
     <body>
         <div class="container">
             <div class="row mt-5">
-                <div class="col-md-4 "></div>
-                <div class="col-md-4 border border-dark shadow">
-                    <form>
-                        <h2 class="text-center mt-3">Contact Us</h2>
+                <div class="col-md-3 "></div>
+                <div class="col-md-6">
+                    <form id="contactForm" class="p-4 border rounded" onsubmit="return validate()">
+                        <h2 class="text-center mb-3">Contact Us</h2>
                         <div class="mb-3">
                             <label for="Name"
                                 class="form-label">Name:</label>
@@ -55,11 +55,11 @@
                             <input type="password" class="form-control"
                                 id="confirmPassword"
                                 placeholder="Enter Confirm Password">
-                                <span class="text-danger" id="ConfirmPasswordError"></span>
+                                <span class="text-danger" id="confirmPasswordError"></span>
                         </div>
                           <div class="mb-3">
                             <label for="message"
-                                class="form-label">Meassage:</label>
+                                class="form-label">Message:</label>
                             <textarea class="form-control" rows="4"
                                 id="message"
                                 placeholder="Your Message" ></textarea>
@@ -87,7 +87,7 @@
                     </form>
                 </div>
 
-                <div class="col-md-4"></div>
+                <div class="col-md-3"></div>
             </div>
         </div>
         <script src="js/form_validation.js"></script>
