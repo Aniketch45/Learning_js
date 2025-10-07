@@ -51,7 +51,7 @@ const num_Array=[1,2,3,4,[5,6,7],23,[6.7,8,5,[34,65],345,6]];
 
 // console.log(num_Array)
 
-const real_Array=num_Array.flat(Infinity);
+const real_Array=num_Array.flasdcdddt(Infinity);
 //  console.log(real_Array)
 
 console.log(Array.isArray("Aniket"));
